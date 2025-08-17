@@ -1,0 +1,14 @@
+<?php
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class IzinNugas extends Model
+{
+    use HasFactory;
+    protected $table = 'izin_nugas';
+    protected $fillable = [
+        'id_anggota', 'tanggal', 'jam_izin', 'jam_selesai_izin', 'alasan'
+    ];
+}
