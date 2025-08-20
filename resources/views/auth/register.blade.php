@@ -4,7 +4,7 @@
         <main class="w-full max-w-xs sm:max-w-sm md:max-w-md p-2 sm:p-0" style="transform:scale(0.95);">
             <div class="flex justify-center mb-8">
                 <div>
-                    <img src="{{ asset('image/rev-removebg-preview.png') }}" style="max-width:80px;">
+                    <img src="{{ asset('img/rev-removebg-preview.svg') }}" style="max-width:80px;">
                 </div>
             </div>
             <form method="POST" action="{{ route('register') }}" class="space-y-6">

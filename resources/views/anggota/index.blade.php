@@ -61,7 +61,7 @@
                                                         <form action="{{ route('anggota.destroy', $item->id) }}" method="POST" style="display:inline-block;">
                                                             @csrf
                                                             @method('DELETE')
-                                                            <button type="submit" class="btn btn-sm btn-outline-danger" onclick="return confirm('Yakin hapus?')"><i class="fa fa-trash"></i> Hapus</button>
+                                                            <button type="submit" class="btn btn-sm btn-outline-danger"><i class="fa fa-trash" onclick="return confirm('Yakin hapus?')"></i> Hapus</button>
                                                         </form>
                                                     </div>
                                                 </td>

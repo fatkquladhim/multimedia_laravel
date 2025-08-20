@@ -9,6 +9,6 @@ class LegalisasiLaptop extends Model
     use HasFactory;
     protected $table = 'legalisasi_laptop';
     protected $fillable = [
-        'id_anggota', 'merk', 'serial_number', 'keterangan', 'status', 'tanggal_legalisasi'
+        'id_anggota', 'merk', 'tipe', 'serial_number', 'file_bukti', 'status'
     ];
 }

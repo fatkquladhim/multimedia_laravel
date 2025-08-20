@@ -39,6 +39,11 @@ class AlatController extends Controller
         $alat->update($request->all());
         return redirect()->route('alat.index')->with('success', 'Data alat berhasil diupdate.');
     }
+    public function show($id)
+    {
+        $alat = Alat::findOrFail($id);
+        return view('alat.tampil', compact('alat'));
+    }
 
     public function destroy($id)
     {
